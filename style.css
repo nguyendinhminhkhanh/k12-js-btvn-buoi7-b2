@@ -1,0 +1,64 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.fw-cl-ct{
+    width: 50px;
+    height: 20px;
+    text-align: center;
+    font-weight: 700;
+    color: white;
+}
+
+.main {
+    margin-top: 50px;
+    width: 50%;
+    height: 600px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 0px;
+    border-radius: 0px;
+    box-shadow:  48px 48px 71px #bcbcbc,
+                 -48px -48px 71px #ffffff;
+}
+
+.position {
+    position: absolute;
+}
+
+img {
+    width: 500px;
+    object-fit: cover;
+    top: 30px;
+    right: 45%;
+    transform: translateX(50%);
+    box-sizing: border-box;
+}
+
+
+.hot {
+    background-color: #ef4844;
+    border-left: 2px solid #1cba63;
+}
+
+.sale {
+    right: 0;
+    background-color: #1cba63;
+    border-right: 2px solid green;
+}
+
+.content {
+    text-align: center;
+    font-size: 20px;
+    bottom: 10%;
+    right: 50%;
+    transform: translateX(50%);
+}
+
+.price {
+    bottom: 0;
+    color: red;
+    font-weight: 900;
+}
